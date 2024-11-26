@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function KakaoSearch() {
   // API 키는 실제 발급받은 Kakao REST API 키로 교체해야 합니다.
-  const KAKAO_API_KEY = "82bb82347fb8f527741bb610dbfe61cb"; 
+  const KAKAO_API_KEY = process.env.REACT_APP_KAKAOSEARCH_KEY; 
 
   // placeSearch 함수
   async function placeSearch() {
