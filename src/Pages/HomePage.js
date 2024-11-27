@@ -11,6 +11,7 @@ function HomePage(){
   return(
     <div>
       <p>첫번째 화면</p>
+      <KakaoSearch/>
       <KakaoMap/>
     </div>
   );
